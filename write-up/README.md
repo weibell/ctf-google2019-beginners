@@ -510,7 +510,7 @@ Via: 1.1 google
 ## day5-easy
 **FriendSpaceBookPlusAllAccessRedPremium.com** `[reversing]` 
 
-See: <https://github.com/weibell/ctf-google2019-beginners/tree/master/write-up/day5-easy
+See: https://github.com/weibell/ctf-google2019-beginners/tree/master/write-up/day5-easy
 
 **Flag**: `CTF{Peace_from_Cauli!}`
 
