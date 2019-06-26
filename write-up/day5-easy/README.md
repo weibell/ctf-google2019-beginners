@@ -1,4 +1,4 @@
-## Write-up: TargetFriendSpaceBookPlusAllAccessRedPremium.com
+## Write-up: FriendSpaceBookPlusAllAccessRedPremium.com
 
 Google CTF 2019: [Beginner’s Quest](https://capturetheflag.withgoogle.com/#beginners/)
 
