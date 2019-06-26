@@ -1,0 +1,143 @@
+load A 0 . push A
+load A 1 7 4 8 8 . push A
+load A 1 6 7 5 8 . push A
+load A 1 6 5 9 9 . push A
+load A 1 6 2 8 5 . push A
+load A 1 6 0 9 4 . push A
+load A 1 5 5 0 5 . push A
+load A 1 5 4 1 7 . push A
+load A 1 4 8 3 2 . push A
+load A 1 4 4 5 0 . push A
+load A 1 3 8 9 3 . push A
+load A 1 3 9 2 6 . push A
+load A 1 3 4 3 7 . push A
+load A 1 2 8 3 3 . push A
+load A 1 2 7 4 1 . push A
+load A 1 2 5 3 3 . push A
+load A 1 1 5 0 4 . push A
+load A 1 1 3 4 2 . push A
+load A 1 0 5 0 3 . push A
+load A 1 0 5 5 0 . push A
+load A 1 0 3 1 9 . push A
+load A 9 7 5 . push A
+load A 1 0 0 7 . push A
+load A 8 9 2 . push A
+load A 8 9 3 . push A
+load A 6 6 0 . push A
+load A 7 4 3 . push A
+load A 2 6 7 . push A
+load A 3 4 4 . push A
+load A 2 6 4 . push A
+load A 3 3 9 . push A
+load A 2 0 8 . push A
+load A 2 1 6 . push A
+load A 2 4 2 . push A
+load A 1 7 2 . push A
+load A 7 4 . push A
+load A 4 9 . push A
+load A 1 1 9 . push A
+load A 1 1 3 . push A
+load A 1 1 9 . push A
+load A 1 0 6 . push A
+load B 1 .
+
+MMARKER1 pop A push B push A load A 3 8 9 .
+push A push B
+jump_to JMARKER4
+xor print_top
+load A 1 . push A add pop B
+if_not_zero jump_to JMARKER1 X
+
+load A 9 8 4 2 6 . push A
+load A 9 7 8 5 0 . push A
+load A 9 7 6 0 4 . push A
+load A 9 7 2 8 0 . push A
+load A 9 6 8 1 5 . push A
+load A 9 6 4 4 3 . push A
+load A 9 6 3 5 4 . push A
+load A 9 5 9 3 4 . push A
+load A 9 4 8 6 5 . push A
+load A 9 4 9 5 2 . push A
+load A 9 4 6 6 9 . push A
+load A 9 4 4 4 0 . push A
+load A 9 3 9 6 9 . push A
+load A 9 3 7 6 6 . push A
+load B 9 9 .
+
+MMARKER2 pop A push B push A load A 5 6 8 .
+push A push B
+jump_to JMARKER4
+xor print_top
+load A 1 . push A add pop B
+if_not_zero jump_to JMARKER2 X
+
+load A 1 0 1 1 4 1 0 5 8 . push A
+load A 1 0 1 0 6 0 2 0 6 . push A
+load A 1 0 1 0 3 0 0 5 5 . push A
+load A 1 0 0 9 9 8 9 6 6 . push A
+load A 1 0 0 8 8 7 9 9 0 . push A
+load A 1 0 0 7 6 7 0 8 5 . push A
+load A 1 0 0 7 0 7 0 3 6 . push A
+load A 1 0 0 6 5 6 1 1 1 . push A
+load A 1 0 0 4 0 4 0 9 4 . push A
+load A 1 0 0 1 6 0 9 2 2 . push A
+load A 1 0 0 1 3 1 0 1 9 . push A
+load A 1 0 0 1 1 1 1 0 0 . push A
+load A 1 0 0 0 5 9 9 2 6 . push A
+load A 1 0 0 0 4 9 9 8 2 . push A
+load A 1 0 0 0 3 0 0 4 5 . push A
+load A 9 9 8 9 9 9 7 . push A
+load A 9 9 8 1 8 5 8 . push A
+load A 9 9 8 0 8 1 5 . push A
+load A 9 9 7 8 8 4 2 . push A
+load A 9 9 6 5 7 9 4 . push A
+load A 9 9 5 7 5 6 4 . push A
+load A 9 9 3 8 3 0 4 . push A
+load A 9 9 3 5 4 2 7 . push A
+load A 9 9 3 2 2 8 9 . push A
+load A 9 9 3 1 4 9 4 . push A
+load A 9 9 2 7 3 8 8 . push A
+load A 9 9 2 6 3 7 6 . push A
+load A 9 9 2 3 2 1 3 . push A
+load A 9 9 2 1 3 9 4 . push A
+load A 9 9 1 9 1 5 4 . push A
+load A 9 9 1 8 0 8 2 . push A
+load A 9 9 1 6 2 3 9 . push A
+load B 7 6 5 .
+
+MMARKER3 pop A push B push A load A 1 0 2 3 .
+push A push B
+jump_to JMARKER4
+xor print_top
+load A 1 . push A add pop B
+if_not_zero jump_to JMARKER3 X
+exit
+
+MMARKER4
+load A 2 . push A MMARKER5
+jump_to JMARKER9
+MMARKER6 if_zero pop_out jump_to JMARKER8 . X
+pop_out jump_to JMARKER11
+MMARKER7 if_zero pop_out jump_to JMARKER8 X
+pop_out pop A load B 1 . push B sub
+if_zero pop_out pop B push A push B jump_top X push A
+MMARKER8 load B 1 . push B add jump_to JMARKER5
+
+MMARKER9
+clone load A 2 . push A
+MMARKER10 sub if_zero pop_out load A 1 . push A
+jump_to JMARKER6 X
+pop_out clone push A
+modulo if_zero jump_to JMARKER6 X
+pop_out clone push A load A 1 .
+push A add clone pop A jump_to JMARKER10
+
+MMARKER11
+clone clone load B 0 . push B
+MMARKER12 load A 1 0 . push A
+multiply pop B push A modulo
+push B add pop B pop A clone push B sub
+if_zero pop_out load B 1 . push B jump_to JMARKER7 X
+pop_out push A load A 1 0 . push A divide
+if_zero jump_to JMARKER7 X
+clone push B jump_to JMARKER12
