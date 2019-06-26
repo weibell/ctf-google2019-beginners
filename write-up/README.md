@@ -145,8 +145,7 @@ $ file /tmp/pic.png
 
 The challenge here is that `cat`, `less` and similar tools aren’t available.
 
-Contents of `/bin/`and `/usr/bin/`:
-<https://github.com/weibell/ctf-google2019-beginners/tree/master/write-up/day2-easy>
+Contents of `/bin/`and `/usr/bin/`: See [./day2-easy](https://github.com/weibell/ctf-google2019-beginners/tree/master/write-up/day2-easy)
 
 ```
 $ nc readme.ctfcompetition.com 1337
