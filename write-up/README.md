@@ -510,7 +510,7 @@ Via: 1.1 google
 ## day5-easy
 **FriendSpaceBookPlusAllAccessRedPremium.com** `[reversing]` 
 
-See: https://github.com/weibell/ctf-google2019-beginners/tree/master/write-up/day5-easy
+See: [./day5-easy](https://github.com/weibell/ctf-google2019-beginners/tree/master/write-up/day5-easy)
 
 **Flag**: `CTF{Peace_from_Cauli!}`
 
@@ -519,6 +519,6 @@ See: https://github.com/weibell/ctf-google2019-beginners/tree/master/write-up/da
 ## day6-easier
 **Drive to the target** `[coding]`
 
-See: <https://github.com/weibell/ctf-google2019-beginners/tree/master/write-up/day6-easier>
+See: [./day6-easier](https://github.com/weibell/ctf-google2019-beginners/tree/master/write-up/day6-easier)
 
 **Flag**: `CTF{Who_is_Tardis_Ormandy}`
