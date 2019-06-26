@@ -152,7 +152,7 @@ Host: cwo-xss.web.ctfcompetition.com
 
 ```
 
-After confirming that this request goes through, we can finally grab the second flag:
+After confirming that this request goes through, we can finally grab the second flag, found at <http://cwo-xss.web.ctfcompetition.com/watch?livestream=http://cwo-xss.web.ctfcompetition.com@localhost/admin/controls>:
 
 ```
 GET /watch?livestream=http://cwo-xss.web.ctfcompetition.com@localhost/admin/controls HTTP/1.1
