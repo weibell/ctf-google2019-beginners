@@ -56,7 +56,7 @@ Once we are close enough to the target, we find the flag:
 
 ## Code
 
-`driving.py`
+[./driving.py](https://github.com/weibell/ctf-google2019-beginners/blob/master/write-up/day6-easier/driving.py)
 
 ```python
 import math

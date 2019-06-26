@@ -175,7 +175,7 @@ print(url)
 
 ## Patching `vm.py`
 
-Another option is to patch `vm.py` and to intercept calls made most computationally intensive part of the program (see  [./patched/vm.py](https://github.com/weibell/ctf-google2019-beginners/blob/master/write-up/day5-easy/patched/vm.py) and [./less-emoji/patched.py](https://github.com/weibell/ctf-google2019-beginners/blob/master/write-up/day5-easy/less-emoji/patched.py)):
+Another option is to patch `vm.py` and to intercept calls made to the most computationally intensive part of the program (see  [./patched/vm.py](https://github.com/weibell/ctf-google2019-beginners/blob/master/write-up/day5-easy/patched/vm.py) and [./less-emoji/patched.py](https://github.com/weibell/ctf-google2019-beginners/blob/master/write-up/day5-easy/less-emoji/patched.py)):
 
 ```python
 import sys
